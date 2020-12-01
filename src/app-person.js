@@ -29,8 +29,6 @@ const restar = (e)=>{
 
 const reset = (e)=>{
     personaA.edad=0
-    //personaA.edad += 1
-    //personaA.edad ++
     render()
 }
 
@@ -42,16 +40,14 @@ const render = ()=>{
         <h1>{personaA.nombre}</h1>
         <p>{personaA.edad}</p>
         <p>{personaA.city}</p>
-        <button onClick= {sumar}>+1</button>
+
+        
+        <button onClick={sumar}>+1</button>
         <button onClick={restar}>-1</button>
         <button onClick={reset}>reset</button>
     </div>
     )
 
-    //const appRoot = document.getElementById('appRoot')
 
-    ReactDOM.render(template, appRoot)
-
-}
 
 render()
