@@ -1,11 +1,10 @@
 {
   "name": "helloworld",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "serve": "live-server public",
-    "dev": "babel src/app.js --out-file=public/js/index.js --presets=react,env --watch"
+    "dev": "babel src/app-country.js --out-file=public/js/index.js --presets=react,env --watch"
   },
   "author": "",
   "license": "ISC",
@@ -25,5 +24,14 @@
     "live-server": "^1.2.1",
     "nodemon": "^2.0.6",
     "npm": "^6.14.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al3ixgh/HelloWorld.git"
+  },
+  "bugs": {
+    "url": "https://github.com/al3ixgh/HelloWorld/issues"
+  },
+  "homepage": "https://github.com/al3ixgh/HelloWorld#readme",
+  "description": ""
 }
